@@ -5,4 +5,4 @@ Start-BitsTransfer -Source $url -Destination $dest
 
 # start "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\"
 
-exit
+# exit
